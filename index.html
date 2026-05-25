@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>Agro<span>Sustentável</span></h1>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <button id="toggle-dark-mode" class="btn-mode" aria-label="Alternar modo escuro">🌙 Modo Escuro</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <h2>Equilíbrio entre Produção e Meio Ambiente</h2>
+                <p>O futuro da agricultura depende da nossa capacidade de inovar respeitando a natureza. Conheça as práticas que alimentam o mundo e preservam o planeta.</p>
+                <button id="btn-saiba-mais" class="btn-primary">Saiba Mais</button>
+                <div id="mensagem-dinamica" class="hidden"></div>
+            </div>
+        </section>
+
+        <section id="pilares" class="pillars-section">
+            <div class="section-title">
+                <h3>Nossos Três Pilares</h3>
+                <p>Como unimos a força do campo à conservação ambiental.</p>
+            </div>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-icon">🌱</div>
+                    <h4>Tecnologia Verde</h4>
+                    <p>Uso de bioinsumos e drones para otimizar o plantio, reduzindo o impacto ambiental e o desperdício de recursos.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💧</div>
+                    <h4>Manejo Hídrico</h4>
+                    <p>Sistemas inteligentes de irrigação gota a gota e captação de água da chuva para preservar nossos recursos hídricos.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔄</div>
+                    <h4>Rotação de Culturas</h4>
+                    <p>Prática milenar combinada com ciência moderna para manter o solo fértil e evitar o desgaste da terra.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <div class="contact-container">
+                <h3>Junte-se ao Movimento</h3>
+                <p>Receba newsletters e relatórios sobre o agronegócio sustentável.</p>
+                
+                <form id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com">
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">Enviar Cadastro</button>
+                </form>
+                <div id="form-feedback" class="feedback-message"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Agro Sustentável. Agro forte, futuro sustentável.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
